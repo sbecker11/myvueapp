@@ -7,5 +7,6 @@ npm i -D @vue/cli-service vue-template-compiler
 
 npm run build
 
-git subtree split --branch gh-pages --prefix dist/
+git branch -D gh-pages
 
+git subtree split --branch gh-pages --prefix dist/
